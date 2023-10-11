@@ -1,0 +1,203 @@
+body {
+    background-color: rgb(255, 240, 189);
+    font-family: 'Oldenburg', serif;
+    text-align: center;
+    color: rgb(31, 29, 36);
+}
+h1{
+    letter-spacing: 10px;
+    font-size: 88px;
+    text-decoration: underline;
+    font-family: 'Pinyon Script', cursive;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    margin-inline-end: 0px;
+    margin-block-end: 5px ;
+    color: rgb(0, 47, 255);
+
+}
+h2{
+    font-size: 12px;
+    font-style: italic;
+    padding-top: 0px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+h3 {
+    font-size: 16px;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+   
+}
+h4 {
+    font-size: 16px;
+    font-weight: 200;
+    font-style: normal;
+   
+}
+h3::first-letter{
+    font-size: 150%;
+    color: rgb(0, 47, 255);
+}
+h4::first-letter{
+    font-size: 150%;
+    color: rgb(0, 47, 255);
+}
+.textbox{
+    background-color: rgba(255, 255, 255, 0.596);
+    border: 2px solid rgb(0, 47, 255);
+    margin-bottom: 15px;
+    padding: 15px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+p::first-letter{
+    font-size: 150%;
+    color: rgb(0, 47, 255);
+
+}
+p{
+    margin-block-start: 7px;
+    margin-block-end: 7px ;
+    color:rgb(31, 29, 36);
+}
+span{
+    display: block;
+    padding: 5px;
+}
+/* code below found at https://www.w3schools.com/howto/howto_css_image_center.asp */
+.center {
+    background-color: rgba(255, 255, 255, 0.596);
+    border: 2.5px solid rgb(0, 47, 255);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.centersmall {
+    background-color: rgba(255, 255, 255, 0.596);
+    border: 2.5px solid rgb(0, 47, 255);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 55px;
+}
+.centerpic{
+    background-color: rgba(255, 255, 255, 0.596);
+    border: 2.5px solid rgb(0, 47, 255);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-top: 15px;
+    margin-bottom: 25px;
+}
+table {
+    background-color: rgba(255, 255, 255, 0.596);
+    text-align: center;
+    border: 2.5px solid rgb(2, 7, 32) ;
+    height: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    margin-bottom: 45px;
+
+}
+th{
+    text-align: center;
+    border: 2.5px solid rgb(2, 7, 32) ;
+    background-color: rgb(0, 47, 255);
+    color: white;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#textspan{
+    letter-spacing: 15px;
+    font-size: 16px;
+}
+.bold{
+    font-weight: bolder;
+}
+#button {
+    display: block;
+    background-color: rgb(0, 47, 255);
+    color: white;
+    border: 3px solid rgb(2, 7, 32);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+#cat{
+    border: 2.5px solid rgb(0, 47, 255);
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 15px;
+    margin-bottom: 40px;
+}
+#horse{
+    border: 2.5px solid rgb(0, 47, 255);
+    margin-bottom: 40px;
+}
+#owl {
+    border: 2.5px solid rgb(0, 47, 255);
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-bottom: 40px;
+}
+#beast {
+    border: 2.5px solid rgb(0, 47, 255);
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-bottom: 40px;
+}
+footer{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.buttonEXT {
+    display: block;
+    background-color: rgb(187, 210, 245);
+    color: rgb(2, 7, 32);
+    border: 3px solid rgb(2, 7, 32);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'Oldenburg', serif;
+    text-align: center;
+    text-decoration: none;
+}
+em{
+    color:  rgb(0, 47, 255);
+}
