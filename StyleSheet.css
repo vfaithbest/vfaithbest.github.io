@@ -1,19 +1,31 @@
+/* The idea behing this websites design is simplicity and a story book feel. I tried to make it more interesting to look at and it failed miserabbly... so simple is what we get*/
+/* css learned from Shawn Morgan and W3schools.com*/
+/*body font found from https://fonts.google.com/ and copid code from there.*/
 body {
     background-color: rgb(255, 240, 189);
     font-family: 'Oldenburg', serif;
     text-align: center;
     color: rgb(31, 29, 36);
 }
+/*Heading font found from https://fonts.google.com/ and copid code from there.*/
 h1{
+    border-radius: 35px;
+    background-color: rgb(237, 205, 252);
+    border: 2px solid rgb(0, 47, 255);
     letter-spacing: 10px;
     font-size: 88px;
-    text-decoration: underline;
+    text-decoration:none;
     font-family: 'Pinyon Script', cursive;
     padding-bottom: 2px;
     margin-bottom: 0px;
+    /*the following were used becuase the inspect view showed that I needed more types to overwrite the user agent styles*/
     margin-inline-end: 0px;
     margin-block-end: 5px ;
     color: rgb(0, 47, 255);
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
 
 }
 h2{
@@ -27,6 +39,7 @@ h3 {
     font-size: 16px;
     font-weight: 200;
     font-style: normal;
+    /*The margin auto features were learned from https://www.w3schools.com/css/css_margin.asp, it worked to center elements and take up the right amount of space*/
     margin: auto;
    
 }
@@ -37,6 +50,7 @@ h4 {
    
 }
 h3::first-letter{
+    font-weight: 400;
     font-size: 150%;
     color: rgb(0, 47, 255);
 }
@@ -45,8 +59,10 @@ h4::first-letter{
     color: rgb(0, 47, 255);
 }
 .textbox{
+    border-radius: 35px;
     background-color: rgba(255, 255, 255, 0.596);
     border: 2px solid rgb(0, 47, 255);
+    /*Margin and padding elements learned from https://www.w3schools.com/css/css_margin.asp and https://www.w3schools.com/css/css_padding.asp and adjusted after being played with to fit the page layout*/
     margin-bottom: 15px;
     padding: 15px;
     text-align: left;
@@ -61,16 +77,18 @@ p::first-letter{
 
 }
 p{
+    font-size: 14px;
     margin-block-start: 7px;
     margin-block-end: 7px ;
     color:rgb(31, 29, 36);
 }
-span{
-    display: block;
-    padding: 5px;
+#tinytext {
+    font-size: 10px;
+    font-style: italic;
 }
-/* code below found at https://www.w3schools.com/howto/howto_css_image_center.asp */
+/* code below found at https://www.w3schools.com/howto/howto_css_image_center.asp for diplay block and auto margins, did not know how to customize*/
 .center {
+    border-radius: 35px;
     background-color: rgba(255, 255, 255, 0.596);
     border: 2.5px solid rgb(0, 47, 255);
     display: block;
@@ -84,6 +102,7 @@ span{
     margin-right: 45px;
 }
 .centersmall {
+    border-radius: 35px;
     background-color: rgba(255, 255, 255, 0.596);
     border: 2.5px solid rgb(0, 47, 255);
     display: block;
@@ -137,19 +156,20 @@ th{
 .bold{
     font-weight: bolder;
 }
-#button {
+.button {
     display: block;
     background-color: rgb(0, 47, 255);
     color: white;
     border: 3px solid rgb(2, 7, 32);
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-left: 30%;
-    margin-right: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
     margin-bottom: 15px;
     margin-top: 15px;
+    /*Used this site to learn how to remove link underline:https://getcssscan.com/blog/how-to-remove-underline-from-link-css#:~:text=To%20remove%20underline%20from%20a%20link%20with%20CSS%2C%20add%20text,decoration%3A%20none%20to%20your%20code.&text=This%20code%20targets%20the%20CSS,fixed%20color%20to%20the%20links.*/
     text-decoration: none;
 }
 #cat{
@@ -186,18 +206,16 @@ footer{
     background-color: rgb(187, 210, 245);
     color: rgb(2, 7, 32);
     border: 3px solid rgb(2, 7, 32);
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-left: 30%;
-    margin-right: 30%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
     margin-bottom: 15px;
     margin-top: 15px;
     font-family: 'Oldenburg', serif;
     text-align: center;
+    /*Used this site to learn how to remove link underline:https://getcssscan.com/blog/how-to-remove-underline-from-link-css#:~:text=To%20remove%20underline%20from%20a%20link%20with%20CSS%2C%20add%20text,decoration%3A%20none%20to%20your%20code.&text=This%20code%20targets%20the%20CSS,fixed%20color%20to%20the%20links.*/
     text-decoration: none;
-}
-em{
-    color:  rgb(0, 47, 255);
 }
