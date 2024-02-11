@@ -1,0 +1,8 @@
+Document for Lab Checklist 4:
+Create a document with all three different link types from above to your hosted feature layer item and its data (Be sure to not include the access token). Store these (again, without an access token) in a web page or MarkDown document on your GitHub for this weeks' activities (name this whatever you wish, just know how to find it for the practical lab!). 
+
+Rest Point: https://services5.arcgis.com/LfJNQzucrKu0MiiB/arcgis/rest/services/tree_survey/FeatureServer/0
+
+Developers URL: https://developers.arcgis.com/layers/a5d3f6f7b58541e7aeeeef8de9a346ae
+
+AGOL Item: https://vfxm1adlp3jlmvsn.maps.arcgis.com/home/item.html?id=a5d3f6f7b58541e7aeeeef8de9a346ae
